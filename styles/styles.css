@@ -47,13 +47,10 @@ header .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   flex: 1;
   height: 100px; }
 
-.logo {
+header .container a {
   max-width: 100px;
   display: flex;
   align-items: center;
@@ -63,7 +60,7 @@ header a,
 header a:hover,
 header a:active,
 header a:focus {
-  color: #1e1f1f;
+  color: #191b1b;
   text-decoration: none; }
 
 header h1 {
@@ -170,8 +167,10 @@ section article h1 {
 
 footer {
   background-color: #fff;
-  color: #fff;
-  padding: 30px;
+  color: #191b1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   height: 50px;
   bottom: 0px;
@@ -179,18 +178,47 @@ footer {
   right: 0px;
   margin-bottom: 0px; }
 
-footer a {
-  color: #fff; }
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
 
+footer .container a {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+footer img {
+  margin-right: 25px; }
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+footer ul li {
+  list-style: none;
+  padding: 0 12px; }
+
+footer a,
 footer a:hover,
 footer a:active,
 footer a:focus {
-  color: #fff; }
+  font-weight: 100;
+  color: #191b1b;
+  text-decoration: none; }
+
+footer ul a {
+  line-height: 50px;
+  font-weight: 100; }
+
+footer img {
+  max-width: 34px; }
 
 @media screen and (max-width: 900px) {
   .btn-menu {
     line-height: 100px;
-    color: #1e1f1f;
+    color: #191b1b;
     display: block;
     background-color: transparent;
     border: none;
@@ -214,6 +242,9 @@ footer a:focus {
     display: block;
     line-height: 40px;
     text-align: center; }
+
+  footer .container ul {
+    display: none; }
 
   .show header {
     height: auto; }

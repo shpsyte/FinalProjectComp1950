@@ -12,8 +12,10 @@
   color: $write;
 }
 
+
+
 @mixin color-gray {color: #e0ece8;}
-@mixin color-black {color: #1e1f1f;}
+@mixin color-black {color: #191b1b;}
 
 
 
@@ -24,4 +26,11 @@
 
 @mixin height-100 {
   line-height: 100px;
+}
+
+@mixin d-flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }

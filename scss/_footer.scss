@@ -1,8 +1,7 @@
 footer {
   background-color: $footer-bg-color;
-  @include color-write;
-  padding: 30px;
-  
+  @include color-black;
+  @include d-flex-centered;
   position: fixed;
   height: 50px;
   bottom: 0px;
@@ -12,12 +11,51 @@ footer {
 
 }
 
-footer a {
-  @include color-write;
+footer .container
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
 }
 
+footer .container a{
+  @include d-flex-centered;
+}
+
+footer img{
+  margin-right: 25px;
+}
+
+footer ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul li{
+  list-style: none;
+  padding: 0 12px;
+}
+
+footer a,
 footer a:hover,
 footer a:active,
 footer a:focus {
-  @include color-write;
+  font-weight: 100;
+  @include color-black;
+  @include text-decoration-none;
+  
 }
+ 
+footer ul a {
+  line-height: 50px;
+  font-weight: 100;
+}
+
+
+footer img{
+  max-width: 34px;
+}
+ 

@@ -10,16 +10,12 @@ header .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   flex: 1;
   height: 100px;
  
 }
 
-
-.logo
+header .container a
 {
   max-width: 100px;
   display: flex;
@@ -54,7 +50,6 @@ header h1 a {
   display: none;
 }
 
- 
 
 header nav ul {
   @include margin-padding-0;
