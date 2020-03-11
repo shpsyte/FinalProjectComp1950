@@ -1,0 +1,263 @@
+/* CSS Document */
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+input,
+button {
+  outline: 0; }
+
+/* Responsive Images Reset */
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+nav a {
+  font-family: "Ubuntu", sans-serif; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  text-rendering: optimizeLegibility;
+  background: #e0ece8; }
+
+.container {
+  background-color: #fff;
+  padding: 0 22px !important;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0; }
+
+header {
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1px; }
+
+header .container {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 100px; }
+
+.logo {
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+header a,
+header a:hover,
+header a:active,
+header a:focus {
+  color: #1e1f1f;
+  text-decoration: none; }
+
+header h1 {
+  margin-bottom: 0; }
+
+header h1 a {
+  line-height: 100px;
+  margin: 0;
+  font-size: 3rem;
+  float: left; }
+
+.btn-menu {
+  display: none; }
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex; }
+
+header nav li {
+  padding: 0 25px; }
+
+header nav li:hover {
+  background: #e0ece8; }
+
+header nav a {
+  line-height: 100px;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-align: center; }
+
+.top-banner {
+  padding: 100px 0; }
+
+.top-banner h2 {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.2; }
+
+.top-banner p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1.2; }
+
+.mid-banner {
+  position: relative; }
+
+.mid-banner h2 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem; }
+
+.bottom-banner {
+  background-color: #f2f2f2;
+  padding: 90px 0; }
+
+.bottom-banner p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center; }
+
+.bottom-banner a {
+  color: #fff;
+  display: block;
+  background-color: #fff;
+  padding: 14px 40px;
+  width: 200px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto; }
+
+.column {
+  padding: 15px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.one-half {
+  width: 50%; }
+
+.one-third {
+  width: 33.66%; }
+
+section {
+  padding: 10px; }
+
+section h1 {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+section article h1 {
+  text-align: center; }
+
+footer {
+  background-color: #fff;
+  color: #fff;
+  padding: 30px;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px; }
+
+footer a {
+  color: #fff; }
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: #fff; }
+
+@media screen and (max-width: 900px) {
+  .btn-menu {
+    line-height: 100px;
+    color: #1e1f1f;
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    text-transform: uppercase; }
+
+  header nav {
+    display: none;
+    width: 100%;
+    clear: both;
+    background-color: #fff; }
+
+  header nav ul {
+    display: block; }
+
+  header nav li {
+    text-align: center;
+    width: 100%; }
+
+  header nav a {
+    display: block;
+    line-height: 40px;
+    text-align: center; }
+
+  .show header {
+    height: auto; }
+
+  .show header nav {
+    display: block; }
+
+  .top-banner {
+    padding: 10vw 0; }
+
+  .top-banner h2 {
+    font-size: 7vw; }
+
+  .top-banner p {
+    font-size: 3.5vw; }
+
+  .mid-banner h2 {
+    font-size: 7vw; }
+
+  .bottom-banner {
+    padding: 30px; } }
+@media (max-width: 560px) {
+  header {
+    height: 70px; }
+
+  header h1 a {
+    line-height: 70px;
+    font-size: 2.5rem; }
+
+  .btn-menu {
+    line-height: 70px;
+    font-size: 1.2rem; }
+
+  .one-half,
+  .one-third {
+    width: 100%; } }
+@media (max-width: 400px) {
+  section {
+    padding: 20px; }
+
+  header .container {
+    padding: 0 20px; }
+
+  footer {
+    padding: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */

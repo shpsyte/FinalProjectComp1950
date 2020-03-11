@@ -6,8 +6,9 @@ body {
 
 .container {
   background-color: $write;
-
+  padding: 0 22px !important;
   width: 100%;
   max-width: 1400px;
   @include margin-auto-padding-0;
+
 }

@@ -12,6 +12,16 @@
   color: $write;
 }
 
+@mixin color-gray {color: #e0ece8;}
+@mixin color-black {color: #1e1f1f;}
+
+
+
 @mixin text-decoration-none {
   text-decoration: none;
+}
+
+
+@mixin height-100 {
+  line-height: 100px;
 }
